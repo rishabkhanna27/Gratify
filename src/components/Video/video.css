@@ -1,0 +1,40 @@
+.video-item {
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+}
+
+.video-item.item img {
+    max-width: 200px;
+    max-height: 250px ;
+}
+.field{
+    max-width: 1200px;
+    /* margin-left: 10%; */
+    /* padding: 1%; */
+    font-size: large;
+    font-weight: bolder;
+    background-color: rgb(148, 148, 148);
+}
+.title{
+    font-size:550%;
+    font-weight: bolder;
+    margin: 2%;
+    color: rgb(255, 123, 0);
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    background-color: white;
+    
+}
+.vdeo{
+    width: 133%;
+    margin-left: 9%;
+    background-color: white;
+}
+.end{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(35, 146, 173);
+}
