@@ -33,6 +33,7 @@ class SpotiPlayer extends React.Component {
         height={size.height}
         frameBorder="0"
         allowtransparency="true"
+        allow="encrypted-media"
       >
       </iframe> 
       <div id="rotator">

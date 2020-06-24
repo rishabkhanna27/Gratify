@@ -52,7 +52,7 @@ body{
   padding-left: 0.4%;
 }
 .slides{
-  width: 20% !important;
+  max-width: 18% !important;
   display: inline-block;
   color: rgb(199, 16, 16);
   font-weight: bold;
