@@ -146,7 +146,7 @@ console.log(query1)
             />
         </InputGroup>
       </FormGroup>
-      Complete Song {query1} by {this.state.singer}
+     <div> Complete Song {query1} by {this.state.singer}</div>
       {
       this.state.song1 !== null?
           <div>
