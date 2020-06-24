@@ -1,5 +1,5 @@
 const clientId = 'b71fffdd71c642d1814a16fe9769c93d';
-const uriRedirect = 'http://localhost:3002/';
+const uriRedirect = 'https://gratify.netlify.app/';
 let accessToken;
 
 // Module that provides authorization to use the Spotify API
