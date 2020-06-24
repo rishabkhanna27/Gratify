@@ -109,7 +109,7 @@ search(){
 
 render(){
   
-const query1 = this.state.query1;
+const query1 = this.state.query;
 console.log(query1)
 
   const link =this.state.song;
@@ -146,6 +146,7 @@ console.log(query1)
             />
         </InputGroup>
       </FormGroup>
+      Complete Song {query1} by {this.state.singer}
       {
       this.state.song1 !== null?
           <div>
