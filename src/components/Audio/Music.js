@@ -158,7 +158,6 @@ console.log(query1)
       </div>
       <br></br>
       <div className="head">TOP FIVE TRALIER SONGS BY {this.state.singer}</div>
-      <div className="play">
       <div className="slides">
 
       <Player
@@ -169,7 +168,8 @@ console.log(query1)
         <PlayToggle />
       </ControlBar>
       </Player>
-  
+      </div>
+      <div className="slides">
 
       <Player
       poster={image2}
@@ -179,7 +179,8 @@ console.log(query1)
         <PlayToggle />
       </ControlBar>
       </Player>
-   
+      </div>
+      <div className="slides">
       <Player
       poster={image3}
       src={link3}
@@ -188,6 +189,8 @@ console.log(query1)
         <PlayToggle />
       </ControlBar>
       </Player>
+      </div>
+      <div  className="slides">
 
       <Player
       poster={image4}
@@ -197,6 +200,8 @@ console.log(query1)
         <PlayToggle />
       </ControlBar>
       </Player>
+      </div>
+      <div className="slides">
 
       <Player
       poster={image5}
@@ -206,7 +211,6 @@ console.log(query1)
         <PlayToggle />
       </ControlBar>
       </Player>
-      </div>
       </div>
       <a href="https://github.com/rishabkhanna27" ><p className="git">||-Rishab_Khanna-||</p></a>
    </div>
