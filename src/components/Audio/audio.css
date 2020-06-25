@@ -48,16 +48,14 @@ body{
     transform: rotate(359deg);
   }
 }
-.images{
-  padding-left: 0.4%;
-}
+
 .slides{
-  max-width: 18% !important;
+  max-width: 17% !important;
   display: inline-block;
   color: rgb(199, 16, 16);
   font-weight: bold;
-
 }
+
 .head{
   font-size: 280%;
   color: rgb(24, 24, 190);
